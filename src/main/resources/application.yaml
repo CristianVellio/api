@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: api
+
+    # jpa:
+    # hibernate:
+    #   ddl-auto: update
+    #   show-sql: true
+    #   format_sql: true
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost/vollclinic_db
+    username: root
+    password:
